@@ -18,7 +18,7 @@ importers:
         version: 2.10.0(prettier@2.8.8)(svelte@3.59.1)
       turbo:
         specifier: latest
-        version: 1.10.3
+        version: 1.10.5
 
   apps/docs:
     dependencies:
@@ -105,8 +105,8 @@ importers:
         specifier: ^5.0.3
         version: 5.0.3(@capacitor/core@5.0.3)
       '@capacitor/cli':
-        specifier: ^5.0.3
-        version: 5.0.3
+        specifier: ^5.0.5
+        version: 5.0.5
       '@capacitor/core':
         specifier: ^5.0.3
         version: 5.0.3
@@ -405,7 +405,7 @@ importers:
         version: 8.8.0(eslint@8.41.0)
       eslint-config-turbo:
         specifier: latest
-        version: 1.10.3(eslint@8.41.0)
+        version: 1.10.5(eslint@8.41.0)
       eslint-plugin-svelte3:
         specifier: ^4.0.0
         version: 4.0.0(eslint@8.41.0)(svelte@3.59.1)
@@ -725,8 +725,8 @@ packages:
       '@capacitor/core': 5.0.3
     dev: false
 
-  /@capacitor/cli@5.0.3:
-    resolution: {integrity: sha512-VPmd/uKSCYqeLgNTrG2wVaMoCX8lo2UuXFVwP54W4nXPyG6LsDuOKYytkBItTAJrI3KEXdZWyRFbXjIY48/m6g==}
+  /@capacitor/cli@5.0.5:
+    resolution: {integrity: sha512-Mf+lr2L98NfDZki3e5jdG176LUH0rf+OFoMa/oFf6dp4iHwQjS1HiHN5iaGcfJ5RWt432SMEB0dOgicXPb4KCQ==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
@@ -743,9 +743,9 @@ packages:
       plist: 3.0.6
       prompts: 2.4.2
       rimraf: 4.4.1
-      semver: 7.5.0
-      tar: 6.1.14
-      tslib: 2.5.0
+      semver: 7.5.1
+      tar: 6.1.15
+      tslib: 2.5.2
       xml2js: 0.5.0
     transitivePeerDependencies:
       - supports-color
@@ -1239,7 +1239,7 @@ packages:
     dependencies:
       '@ionic/utils-terminal': 2.3.4
       debug: 4.3.4
-      tslib: 2.5.0
+      tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1249,7 +1249,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       debug: 4.3.4
-      tslib: 2.5.0
+      tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1261,7 +1261,7 @@ packages:
       '@types/fs-extra': 8.1.2
       debug: 4.3.4
       fs-extra: 9.1.0
-      tslib: 2.5.0
+      tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1271,7 +1271,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       debug: 4.3.4
-      tslib: 2.5.0
+      tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1285,7 +1285,7 @@ packages:
       debug: 4.3.4
       signal-exit: 3.0.7
       tree-kill: 1.2.2
-      tslib: 2.5.0
+      tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1295,7 +1295,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       debug: 4.3.4
-      tslib: 2.5.0
+      tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1311,7 +1311,7 @@ packages:
       '@ionic/utils-terminal': 2.3.4
       cross-spawn: 7.0.3
       debug: 4.3.4
-      tslib: 2.5.0
+      tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1326,7 +1326,7 @@ packages:
       slice-ansi: 4.0.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
-      tslib: 2.5.0
+      tslib: 2.5.2
       untildify: 4.0.0
       wrap-ansi: 7.0.0
     transitivePeerDependencies:
@@ -2765,7 +2765,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.5.0
+      semver: 7.5.1
       tsutils: 3.21.0(typescript@5.1.3)
       typescript: 5.1.3
     transitivePeerDependencies:
@@ -3073,8 +3073,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.21.7
-      caniuse-lite: 1.0.30001491
+      browserslist: 4.21.5
+      caniuse-lite: 1.0.30001488
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -3863,6 +3863,11 @@ packages:
     dependencies:
       esutils: 2.0.3
 
+  /dotenv@16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
+
   /ecdsa-sig-formatter@1.0.11:
     resolution: {integrity: sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==}
     dependencies:
@@ -4020,13 +4025,13 @@ packages:
     dependencies:
       eslint: 8.41.0
 
-  /eslint-config-turbo@1.10.3(eslint@8.41.0):
-    resolution: {integrity: sha512-ggzPfTJfMsMS383oZ4zfTP1zQvyMyiigOQJRUnLt1nqII6SKkTzdKZdwmXRDHU24KFwUfEFtT6c8vnm2VhL0uQ==}
+  /eslint-config-turbo@1.10.5(eslint@8.41.0):
+    resolution: {integrity: sha512-n2jtsaTG18TpkHJG4TTNUMpBhP2otcCH2S8RxdKonGwoTPKBPG46kbdLvY25G6V1xempClY8f+CujcgV5LkbRw==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
       eslint: 8.41.0
-      eslint-plugin-turbo: 1.10.3(eslint@8.41.0)
+      eslint-plugin-turbo: 1.10.5(eslint@8.41.0)
     dev: false
 
   /eslint-plugin-svelte3@4.0.0(eslint@8.41.0)(svelte@3.59.1):
@@ -4075,11 +4080,12 @@ packages:
       - ts-node
     dev: true
 
-  /eslint-plugin-turbo@1.10.3(eslint@8.41.0):
-    resolution: {integrity: sha512-g3Mnnk7el1FqxHfqbE/MayLvCsYjA/vKmAnUj66kV4AlM7p/EZqdt42NMcMSKtDVEm0w+utQkkzWG2Xsa0Pd/g==}
+  /eslint-plugin-turbo@1.10.5(eslint@8.41.0):
+    resolution: {integrity: sha512-6E4bwsLp065bN1lMgHnhwNhIk8T1LQhYrpe4NnP2/lQgMDP89bxKjoJhAPzQ5v2+c9gj7M/jVltlC/Gnr/sz1Q==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
+      dotenv: 16.0.3
       eslint: 8.41.0
     dev: false
 
@@ -5541,7 +5547,7 @@ packages:
       plist: 3.0.6
       split2: 4.2.0
       through2: 4.0.2
-      tslib: 2.5.0
+      tslib: 2.5.2
       yauzl: 2.10.0
     transitivePeerDependencies:
       - supports-color
@@ -7312,18 +7318,6 @@ packages:
       readable-stream: 3.6.2
     dev: false
 
-  /tar@6.1.14:
-    resolution: {integrity: sha512-piERznXu0U7/pW7cdSn7hjqySIVTYT6F76icmFk7ptU7dDYlXTm5r9A6K04R2vU3olYgoKeo1Cg3eeu5nhftAw==}
-    engines: {node: '>=10'}
-    dependencies:
-      chownr: 2.0.0
-      fs-minipass: 2.1.0
-      minipass: 5.0.0
-      minizlib: 2.1.2
-      mkdirp: 1.0.4
-      yallist: 4.0.0
-    dev: false
-
   /tar@6.1.15:
     resolution: {integrity: sha512-/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==}
     engines: {node: '>=10'}
@@ -7443,7 +7437,6 @@ packages:
 
   /tslib@2.5.2:
     resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
-    dev: true
 
   /tsutils@3.21.0(typescript@5.1.3):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
@@ -7460,65 +7453,65 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /turbo-darwin-64@1.10.3:
-    resolution: {integrity: sha512-IIB9IomJGyD3EdpSscm7Ip1xVWtYb7D0x7oH3vad3gjFcjHJzDz9xZ/iw/qItFEW+wGFcLSRPd+1BNnuLM8AsA==}
+  /turbo-darwin-64@1.10.5:
+    resolution: {integrity: sha512-fIHu+fcW7upaZEfeneoRbZjdrcsj/NxUg7IjZZmlCjgbS9Ofl8RhRid5A1L31AUK3kkqRxzagHc4WZ5x4quBgg==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-darwin-arm64@1.10.3:
-    resolution: {integrity: sha512-SBNmOZU9YEB0eyNIxeeQ+Wi0Ufd+nprEVp41rgUSRXEIpXjsDjyBnKnF+sQQj3+FLb4yyi/yZQckB+55qXWEsw==}
+  /turbo-darwin-arm64@1.10.5:
+    resolution: {integrity: sha512-uv0sDWizuxVvdSjaKvWdPdX4aZ8IZeYJwTJRZwLNRxZV56/1LZD65gyQIqsSNVRHuXI199yahmB+7PMJNpZFdw==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-64@1.10.3:
-    resolution: {integrity: sha512-kvAisGKE7xHJdyMxZLvg53zvHxjqPK1UVj4757PQqtx9dnjYHSc8epmivE6niPgDHon5YqImzArCjVZJYpIGHQ==}
+  /turbo-linux-64@1.10.5:
+    resolution: {integrity: sha512-hI0rErgwxNmuBCNGldhJkjSbb+mT+vjfmBVKcMI/bnBmu/KU7irCrKMe5Vas280teqBrC33GgVfXndJo2cJ1DA==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-arm64@1.10.3:
-    resolution: {integrity: sha512-Qgaqln0IYRgyL0SowJOi+PNxejv1I2xhzXOI+D+z4YHbgSx87ox1IsALYBlK8VRVYY8VCXl+PN12r1ioV09j7A==}
+  /turbo-linux-arm64@1.10.5:
+    resolution: {integrity: sha512-JAygWZjTuD6e7w0KSGzy7UxYqeLIpGfZDne+4MGRc8I5VeWZ6i0HWTqhhIu2/A8AuklYcoj8LkOZxCnMOF3odQ==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-64@1.10.3:
-    resolution: {integrity: sha512-rbH9wManURNN8mBnN/ZdkpUuTvyVVEMiUwFUX4GVE5qmV15iHtZfDLUSGGCP2UFBazHcpNHG1OJzgc55GFFrUw==}
+  /turbo-windows-64@1.10.5:
+    resolution: {integrity: sha512-6w2GOKmlWEAl6QkC4c2j2ZLTwB+RK6oIDRT2KqF1m07KkY6pebEzbPZLHuP08QV+SE0t+prAn+kn7hkHYkwM+Q==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-arm64@1.10.3:
-    resolution: {integrity: sha512-ThlkqxhcGZX39CaTjsHqJnqVe+WImjX13pmjnpChz6q5HHbeRxaJSFzgrHIOt0sUUVx90W/WrNRyoIt/aafniw==}
+  /turbo-windows-arm64@1.10.5:
+    resolution: {integrity: sha512-3eeHRJPU+5zWa/iiikoBoPlNd74Y+L9lrG6ZsDZdzUYxNRTMrZbto1Bu1UF77t10TXeT9BsZRXjquKqrA7R7tg==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo@1.10.3:
-    resolution: {integrity: sha512-U4gKCWcKgLcCjQd4Pl8KJdfEKumpyWbzRu75A6FCj6Ctea1PIm58W6Ltw1QXKqHrl2pF9e1raAskf/h6dlrPCA==}
+  /turbo@1.10.5:
+    resolution: {integrity: sha512-4yxHTrlugJhef4eXuyrPJtrgUZWlbcwmSb8iZL/5UzNjCmx+anOm1nfW2XFrZFKy4v0+/fUlqw8LkTgGVsOKaQ==}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      turbo-darwin-64: 1.10.3
-      turbo-darwin-arm64: 1.10.3
-      turbo-linux-64: 1.10.3
-      turbo-linux-arm64: 1.10.3
-      turbo-windows-64: 1.10.3
-      turbo-windows-arm64: 1.10.3
+      turbo-darwin-64: 1.10.5
+      turbo-darwin-arm64: 1.10.5
+      turbo-linux-64: 1.10.5
+      turbo-linux-arm64: 1.10.5
+      turbo-windows-64: 1.10.5
+      turbo-windows-arm64: 1.10.5
     dev: true
 
   /type-check@0.4.0:
